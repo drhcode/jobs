@@ -12,7 +12,7 @@
   @endforeach;
 
   @else
-  <p>No listings found</p>
+  <p>Ju nuk keni postuar asnje pune</p>
   @endunless
 
 </div>

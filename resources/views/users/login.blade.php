@@ -1,10 +1,10 @@
 <x-layout>
-  <x-card class="p-10 rounded max-w-lg mx-auto mt-24">
+  <x-card class="p-10 rounded  max-w-lg mx-auto mt-24">
     <header class="text-center">
       <h2 class="text-2xl font-bold uppercase mb-1">
-        Login
+        Hyr
       </h2>
-      <p class="mb-4">Login to post jobs</p>
+      <p class="mb-4">Hyr per te postuar pune</p>
     </header>
 
     <form method="POST" action="/users/authenticate">
@@ -20,7 +20,7 @@
 
       <div class="mb-6">
         <label for="password" class="inline-block text-lg mb-2">
-          Password
+          Fjalekalimi
         </label>
         <input type="password" class="border border-gray-200 rounded p-2 w-full" name="password" />
         @error('password')
@@ -31,14 +31,14 @@
 
       <div class="mb-6">
         <button type="submit" class="bg-laravel text-white rounded py-2 px-4 hover:bg-black">
-          Login
+          Hyr
         </button>
       </div>
 
       <div class="mt-8">
         <p>
-          Do you want to register new account?
-          <a href="/register" class="text-laravel">Register</a>
+          Deshiron te regjistrohesh?
+          <a href="/register" class="text-laravel">Regjistrohu</a>
         </p>
       </div>
     </form>

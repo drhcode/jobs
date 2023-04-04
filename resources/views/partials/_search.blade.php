@@ -9,14 +9,14 @@
           type="text"
           name="search"
           class="h-14 w-full pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none"
-          placeholder="Search Jobs..."
+          placeholder="Kerko pune..."
       />
       <div class="absolute top-2 right-2">
           <button
               type="submit"
               class="h-10 w-20 text-white rounded-lg bg-red-500 hover:bg-red-600"
           >
-              Search
+              Kerko
           </button>
       </div>
   </div>

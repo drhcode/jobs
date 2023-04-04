@@ -2,16 +2,16 @@
   <x-card class="p-10 rounded max-w-lg mx-auto mt-24">
     <header class="text-center">
       <h2 class="text-2xl font-bold uppercase mb-1">
-        Register
+        Regjistrohu
       </h2>
-      <p class="mb-4">Create an account to post jobs</p>
+      <p class="mb-4">Regjistrohu per te postuar pune</p>
     </header>
 
     <form method="POST" action="/users">
       @csrf
       <div class="mb-6">
         <label for="name" class="inline-block text-lg mb-2">
-          Name
+          Emri juaj
         </label>
         <input type="text" class="border border-gray-200 rounded p-2 w-full" name="name" value="{{ old('name') }}"/>
         @error('name')
@@ -29,7 +29,7 @@
 
       <div class="mb-6">
         <label for="password" class="inline-block text-lg mb-2">
-          Password
+          Fjalekalimi
         </label>
         <input type="password" class="border border-gray-200 rounded p-2 w-full" name="password" />
         @error('password')
@@ -39,7 +39,7 @@
 
       <div class="mb-6">
         <label for="password2" class="inline-block text-lg mb-2">
-          Confirm Password
+          Konfirmo fjalekalimin
         </label>
         <input type="password" class="border border-gray-200 rounded p-2 w-full" name="password_confirmation" />
         @error('password_confirmation')
@@ -49,14 +49,14 @@
 
       <div class="mb-6">
         <button type="submit" class="bg-laravel text-white rounded py-2 px-4 hover:bg-black">
-          Register
+          Regjistrohu
         </button>
       </div>
 
       <div class="mt-8">
         <p>
-          Already have an account?
-          <a href="/login" class="text-laravel">Login</a>
+          Jeni i regjistruar?
+          <a href="/login" class="text-laravel">Hyr</a>
         </p>
       </div>
     </form>
